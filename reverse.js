@@ -18,8 +18,8 @@ const rev_nums3 = [];
 for (let j = 0; j < nums.length; j++) {
     const num = nums[j];
     rev_nums3.push(num);
-    rev_nums3.reverse();
 }
+rev_nums3.reverse();
 console.log(rev_nums3);
 // 5th method to reverse
 // reverse() function is only for array
